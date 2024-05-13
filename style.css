@@ -1,7 +1,60 @@
 * {
     margin: 0 auto;
     padding: 0;
-    font-family: roboto, sans-serif;
+    font-family: jura, sans-serif;
     box-sizing: border-box;
     border: red 2px solid;
+    font-size: 20px;
 }
+
+/* 
+- A good starting point for layout it to set min-height for an element
+- A good common practice is to create a .wrapper or .container class with a max-width parameter (i.e. it can't get bigger than a particular width, but it can shrink)
+- In general, it's good to not declare width/height unless you have to!
+*/
+
+
+body {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+.logo {
+    background-color: white;
+    max-width: 800px;
+}
+
+.navBar {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    background-color: #381586;
+    color: white;
+}
+
+.navBar li {
+    font-size: 1.25em;
+}
+
+.navBar li:hover {
+    color: #6DAEF0;
+    cursor: pointer;
+}
+
+.heroContainer {
+    max-width: 800px;
+}
+
+
+
+
+/* .treatments-container {
+    background-image: url("./images/room.jpg");
+} */
