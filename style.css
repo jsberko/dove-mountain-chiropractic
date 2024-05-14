@@ -3,7 +3,7 @@
     padding: 0;
     font-family: jura, sans-serif;
     box-sizing: border-box;
-    border: red 2px solid;
+    /* border: red 2px solid; */
     font-size: 20px;
 }
 
@@ -17,6 +17,7 @@
 body {
     /* display: flex;
     flex-direction: column; */
+    max-width: 800px;
 }
 
 img {
@@ -27,16 +28,17 @@ img {
 
 .logo {
     background-color: white;
-    max-width: 800px;
+    /* max-width: 800px; */
 }
 
 .navBar {
-    max-width: 800px;
+    /* max-width: 800px; */
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
     background-color: #381586;
     color: white;
+    padding: 0.5em;
 }
 
 .navBar li {
@@ -49,7 +51,62 @@ img {
 }
 
 .heroContainer {
-    max-width: 800px;
+    /* max-width: 800px; */
+}
+
+.callToActionHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 800px; */
+    background-color: white;
+    color: #381586;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    /* width: 100%; */
+}
+
+.staffContainer {
+    display: flex;
+    background-color: #381586;
+    padding: 3em 2em;
+    gap: 1em;
+}
+
+/*Image not keeping proportions when scaling*/
+
+.staffImage {
+    display: flex;
+    width: 25%;
+}
+
+.staffImage img {
+    min-width: 220px;
+}
+
+.staffContent {
+    width: 75%;
+    color: white;
+}
+
+.staffContent h1 {
+    font-size: 1.75em;
+}
+
+.staffContent p {
+    padding: 1em 0;
+}
+
+.mapContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
