@@ -1,6 +1,6 @@
 * {
     margin: 0 auto;
-    padding: 0;
+    /* padding: 0; */
     font-family: jura, sans-serif;
     box-sizing: border-box;
     /* border: red 2px solid; */
@@ -28,6 +28,7 @@ img {
 
 .logo {
     background-color: white;
+    margin-top: 1em;
     /* max-width: 800px; */
 }
 
@@ -65,6 +66,15 @@ img {
     padding: 0.5em;
 }
 
+.callToActionHeader a {
+    text-decoration: none;
+    color: #381586;
+}
+
+.callToActionHeader a:hover {
+    text-decoration: underline;
+}
+
 .sticky {
     position: sticky;
     top: 0;
@@ -74,19 +84,14 @@ img {
 .staffContainer {
     display: flex;
     background-color: #381586;
-    padding: 3em 2em;
+    padding: 3em 2em 2em;
     gap: 1em;
 }
 
 /*Image not keeping proportions when scaling*/
 
 .staffImage {
-    display: flex;
     width: 25%;
-}
-
-.staffImage img {
-    min-width: 220px;
 }
 
 .staffContent {
@@ -101,6 +106,62 @@ img {
 .staffContent p {
     padding: 1em 0;
 }
+
+.staffContent button {
+    background-color: white;
+    padding: .5em;
+    border-radius: .5em;
+
+}
+
+.staffContent a {
+    color: #381586;
+    text-decoration: none;
+}
+
+.staffContent a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.treatmentsCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #6DAEF090;
+    border: red 2px solid;
+    padding: 1em;
+}
+
+.treatmentsCard h1 {
+    justify-content: center;
+    font-size: 1.75em;
+}
+
+.treatmentsContent {
+    display: flex;
+    gap: 2em;
+}
+
+.treatmentsFormatting {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: red 2px solid;
+}
+
+.treatmentsFormatting h2 {
+    font-size: 1.5em;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+/* 
+.massageTherapy {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+} */
+
 
 .mapContainer {
     display: flex;
