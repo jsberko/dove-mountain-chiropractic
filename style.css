@@ -109,9 +109,8 @@ img {
 
 .staffContent button {
     background-color: white;
-    padding: .5em;
+    padding: .5em 1em;
     border-radius: .5em;
-
 }
 
 .staffContent a {
@@ -124,17 +123,28 @@ img {
     text-decoration: underline;
 }
 
+.treatmentsContainer {
+    background-image: url("./images/room.jpg");
+    background-color: #cccccc;
+    /* object-fit: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .treatmentsCard {
     display: flex;
     flex-direction: column;
-    background-color: #6DAEF090;
-    border: red 2px solid;
-    padding: 1em;
+    background-color: rgb(109, 174, 240, 0.9);
+    width: 80%;
+    margin: 2em 0em 10em;
+    padding: 1.5em .5em 2.5em;
 }
 
 .treatmentsCard h1 {
     justify-content: center;
     font-size: 1.75em;
+    padding-bottom: 1em;
 }
 
 .treatmentsContent {
@@ -143,24 +153,37 @@ img {
 }
 
 .treatmentsFormatting {
-    display: flex;
-    flex-direction: column;
     width: 50%;
-    border: red 2px solid;
+}
+
+.massageTherapy p:nth-of-type(2) {
+    color: #381586;
+}
+
+.massageTherapy p:nth-of-type(5) {
+    color: #381586;
 }
 
 .treatmentsFormatting h2 {
     font-size: 1.5em;
     font-weight: 100;
     text-decoration: underline;
+    text-align: left;
 }
 
-/* 
-.massageTherapy {
+.hoursContainer {
     display: flex;
-    flex-direction: column;
-    width: 50%;
-} */
+    gap: 2em;
+    background-color: rgb(109, 174, 240);
+}
+
+.hoursContent {
+    width: 60%;
+}
+
+.hoursImage {
+    width: 40%;
+}
 
 
 .mapContainer {
