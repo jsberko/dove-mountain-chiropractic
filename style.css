@@ -202,10 +202,6 @@ img {
 
 
 .mapContainer {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -234,10 +230,3 @@ img {
     background-color: #381586;
     padding: 1em 0;
 }
-
-
-
-
-/* .treatments-container {
-    background-image: url("./images/room.jpg");
-} */
